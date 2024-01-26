@@ -5,10 +5,10 @@ function App() {
   return (
     <div>
     <Header />
-    <main>
+    <main className='main'>
       <section className='weather' id='weather'>
-        <div>75F</div>
-        <div><img src='./images/night/cloudyNight.svg' alt='Night'/></div>
+        <div className='weather__temp'>75F</div>
+        <img src='./images/night/cloudyNight.svg' className='weather__image'/>
       </section>
       <section id='cards'>
         Cards Section
