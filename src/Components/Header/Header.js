@@ -1,8 +1,6 @@
 import './Header.css';
 
 const Header = () => {
-    console.log('Header')
-
     return(
         <div>
       <header className='header'>
