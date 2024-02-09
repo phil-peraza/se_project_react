@@ -18,3 +18,13 @@
 .weather__image {
     width: 100%;
 }
+
+.card_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card_name {
+    text-align : center;
+}
