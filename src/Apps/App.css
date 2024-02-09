@@ -20,9 +20,7 @@
 }
 
 .card_section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 17px;
+    margin-top: 20px;
 }
 
 .card_image {
@@ -33,4 +31,12 @@
 
 .card_name {
     text-align : center;
+}
+
+.card_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 20px;
 }
