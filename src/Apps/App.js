@@ -1,6 +1,7 @@
 import './App.css';
 import Header from '../Header/Header';
 import WeatherCard from '../WeatherCard/WeatherCard';
+import ItemCard from '../ItemCard/ItemCard';
 
 const defaultClothingItems = [
   {
@@ -48,14 +49,9 @@ function App() {
     <main className='main'>
       <WeatherCard day={false} type='moony' />
       <section className='card_section' id='card-section'>
-        {defaultClothingItems.map((x) => {
-          return <div>
-            <div><img 
-            className='card_image'
-            src={ x.link }/></div>
-            <div className='card_name'>{ x.name }</div>
-          </div>
-        })}
+        {defaultClothingItems.map((x) => (
+            <ItemCard x={x} />
+          ))}
       </section>
     </main>
     </div>
