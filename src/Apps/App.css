@@ -22,7 +22,13 @@
 .card_section {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 17px;
+}
+
+.card_image {
+    width: 328px;
+    height: 328px;
+    border-radius: 10px;
 }
 
 .card_name {

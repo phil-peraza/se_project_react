@@ -49,9 +49,10 @@ function App() {
       <WeatherCard day={false} type='moony' />
       <section className='card_section' id='card-section'>
         {defaultClothingItems.map((x) => {
-          console.log(x);
           return <div>
-            <div><img src={ x.link }/></div>
+            <div><img 
+            className='card_image'
+            src={ x.link }/></div>
             <div className='card_name'>{ x.name }</div>
           </div>
         })}
