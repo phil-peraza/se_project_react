@@ -1,3 +1,5 @@
+import './WeatherCard.css';
+
 const weatherOptions = [
     {url: require('../images/Day/cloudyDay.svg').default, day: true, type: 'cloudy'},
     {url: require('../images/Day/foggyDay.svg').default, day: true, type: 'foggy'},
@@ -15,7 +17,6 @@ const weatherOptions = [
 ]
 
 const WeatherCard = ({ day, type, weatherTemp = '' }) => {
-    console.log('Weather Card')
     const imageSrc = weatherOptions.filter((i) => {
         return i.day === day && i.type === type;
     });
