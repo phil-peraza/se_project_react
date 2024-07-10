@@ -1,11 +1,14 @@
+import "./ModalWithForm.css";
+
 function ModalWithForm() {
     return (
         <div className="modal">
-            <form className="modal__form">
-                <h2 className="modal__title">New garment</h2>
+            <div className="modal__content">
+            <h2 className="modal__title">New garment</h2>
                 <button type="button" className="modal__close">
                     CLOSE
                 </button>
+            <form className="modal__form">
                 <label htmlFor="name" className="modal__lable">
                     Name 
                     <input 
@@ -51,7 +54,11 @@ function ModalWithForm() {
                         Cold
                     </label>
                 </fieldset>
+                <button type="submit" className="modal__submit">
+                    Add garment
+                </button>
             </form>
+            </div>
         </div>
     );
 }
