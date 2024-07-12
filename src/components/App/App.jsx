@@ -9,7 +9,7 @@ import ItemModal from '../ItemModal/ItemModal';
 
 function App() {
   const [weatherData, setWeatherData] = useState({ type: 'cold' });
-  const [activeModal, setActiveModal] = useState("preview");
+  const [activeModal, setActiveModal] = useState("");
   const [selectedCard, setSelectedCard] = useState({});
 
   const handleCardClick = (card) => {
@@ -29,7 +29,7 @@ function App() {
     <div className='page'>
       <div className='page__content'>
         <Header handleAddClick={handleAddClick}/>
-        <Main weatherData={weatherData}/>
+        <Main weatherData={weatherData} handleCardClick={handleCardClick}/>
       </div>
       <ModalWithForm 
       title="New garment" 
