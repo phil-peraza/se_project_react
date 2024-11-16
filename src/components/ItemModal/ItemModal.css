@@ -11,8 +11,14 @@
    border-top-right-radius: 20px;
 }
 
-.modal__footer {
+.modal__close_img_button {
+    background-image: url("../../assets/closebutton-img.svg");
+}
 
+.modal__footer {
+    margin: 20px;
+    padding: 0;
+    ;
 }
 
 .modal__caption {

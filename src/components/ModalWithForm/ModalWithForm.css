@@ -20,7 +20,7 @@
 }
 
 .modal__close {
-    background-image: url("../../assets/closebutton-img.svg");
+    background-image: url("../../assets/closebutton.svg");
     background-position: center;
     background-color: transparent;
     background-repeat: no-repeat;
