@@ -22,9 +22,9 @@
 }
 
 .modal__caption {
-
+    margin: 0px;
 }
 
 .modal__weather {
-
+    margin-top: 12px;
 }
