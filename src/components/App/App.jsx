@@ -79,7 +79,7 @@ function App() {
                             type="radio" 
                             className="modal__radio-input" 
                         />
-                        Hot
+                         Hot
                     </label>
                     <label htmlFor="warm" className="modal__label modal__label_type_radio">
                         <input
@@ -87,7 +87,7 @@ function App() {
                             type="radio" 
                             className="modal__radio-input" 
                         />
-                        Warm
+                         Warm
                     </label>
                     <label htmlFor="cold" className="modal__label modal__label_type_radio">
                         <input 
@@ -95,7 +95,7 @@ function App() {
                             type="radio" 
                             className="modal__radio-input" 
                         />
-                        Cold
+                         Cold
                     </label>
                 </fieldset>
       </ModalWithForm>
