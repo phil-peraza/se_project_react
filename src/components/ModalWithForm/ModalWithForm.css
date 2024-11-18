@@ -70,7 +70,6 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    
 }
 
 .modal__legend {
@@ -81,11 +80,7 @@
     color: rgba(0, 0, 0, 0.3);
 }
 
-/* .modal__label_type_radio:active {
-    color: #000;
-} */
-
-.modal__label_type_radio:focus {
+.modal__label_type_radio:focus-within {
     color: #000;
 }
 
