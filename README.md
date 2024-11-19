@@ -2,7 +2,7 @@
 Based on a template from Figma, React along with Vite will be used to create and style a full-stack web application with API calls that will give suggestions on what to wear depending on weather conditions.
 
 ## Tools
-To creat the application a number of tools will be used.
+To creat the application a number of tools will be used:
 ```
 -HTML
 -CSS
@@ -12,3 +12,6 @@ To creat the application a number of tools will be used.
 -WeatherAPI
 -Figma
 ```
+
+#GitHub Pages
+Link: 
