@@ -2,6 +2,18 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 20px 40px 0;
+    font-family: 'Cabinet Grotesk', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.footer__name {
     line-height: 20px;
+    font-size: 16px;
+    margin: 32px 0 0 0;
+}
+
+.footer__year {
+    line-height: 20px;
+    font-size: 16px;
+    margin: 32px 0 0 0;
 }

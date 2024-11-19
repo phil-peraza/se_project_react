@@ -7,6 +7,10 @@
     border-radius: 20px;
 }
 
+.cards {
+    margin-bottom: 139px;
+}
+
 .card__name {
     position: absolute;
     top: 15px;
@@ -15,7 +19,10 @@
     border-radius: 4px;
     padding: 2px 12px;
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.6)
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Cabinet Grotesk', Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 .card__image {
