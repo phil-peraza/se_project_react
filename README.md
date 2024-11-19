@@ -13,5 +13,5 @@ To creat the application a number of tools will be used:
 -Figma
 ```
 
-#GitHub Pages
+## GitHub Pages
 Link: 
