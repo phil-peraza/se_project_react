@@ -14,4 +14,4 @@ To creat the application a number of tools will be used:
 ```
 
 ## GitHub Pages
-Link: 
+Link:  https://phil-peraza.github.io/se_project_react/
