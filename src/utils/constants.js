@@ -1,3 +1,8 @@
+export const weatherOptions = [
+  
+]
+
+
 export const defaultClothingItems = [
     {
       _id: 0,
