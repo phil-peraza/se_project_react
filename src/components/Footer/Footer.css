@@ -4,6 +4,7 @@
  margin: 0 auto;
  font-family: "Cabinet Grotesk", Arial, Helvetica, sans-serif;
  font-weight: normal;
+ max-width: 1440px;
 }
 
 .footer__name {
