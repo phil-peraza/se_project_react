@@ -1,110 +1,109 @@
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #0000004d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #0000004d;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ visibility: hidden;
 }
 
 .modal_opened {
-    visibility: visible;
+ visibility: visible;
 }
 
 .modal__close {
-    background-image: url("../../assets/closebutton.svg");
-    background-position: center;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 20px;
-    right: 20px;
-    border: none;
+ background-image: url("../../assets/closebutton.svg");
+ background-position: center;
+ background-color: transparent;
+ background-repeat: no-repeat;
+ position: absolute;
+ height: 20px;
+ width: 20px;
+ top: 20px;
+ right: 20px;
+ border: none;
 }
 
 .modal__content {
-    background-color: #fff;
-    position: relative;
-    padding: 28px 28px 36px;
-    max-width: 496px;
-    box-sizing: border-box;
-    width: 100%;
-    border-radius: 16px;
-    font-family: 'Cabinet Grotesk', Arial, Helvetica, sans-serif;
-    font-weight: normal;
+ background-color: #fff;
+ position: relative;
+ padding: 28px 28px 36px;
+ max-width: 496px;
+ box-sizing: border-box;
+ width: 100%;
+ border-radius: 16px;
+ font-family: "Cabinet Grotesk", Arial, Helvetica, sans-serif;
+ font-weight: normal;
 }
 
 .modal__title {
-    font-size: 16px;
-    margin: 0;
-    padding-bottom: 24px;
+ font-size: 16px;
+ margin: 0;
+ padding-bottom: 24px;
 }
 
 .modal__lable {
-    margin: 0px;
-    padding-bottom: 24px;
+ margin: 0px;
+ padding-bottom: 24px;
 }
 
 .modal__input {
-    border: none;
-    box-shadow: -1px 2px 0 -1px #000;
-    width: 100%;
-    padding: 8px 0 0 0;
+ border: none;
+ box-shadow: -1px 2px 0 -1px #000;
+ width: 100%;
+ padding: 8px 0 0 0;
 }
 
 .modal__form {
-    display: flex;
-    flex-direction: column;
+ display: flex;
+ flex-direction: column;
 }
 
 .modal__input {
-    display: block;
+ display: block;
 }
 
 .modal__radio-buttons {
-    border: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+ border: none;
+ padding: 0;
+ display: flex;
+ flex-direction: column;
 }
 
 .modal__legend {
-    color: #000;
+ color: #000;
 }
 
 .modal__label_type_radio {
-    color: rgba(0, 0, 0, 0.3);
+ color: rgba(0, 0, 0, 0.3);
 }
 
 .modal__label_type_radio:focus-within {
-    color: #000;
+ color: #000;
 }
 
 .modal__radio-input {
-    margin: 12px 8px 0 0;
-    accent-color: #000;
+ margin: 12px 8px 0 0;
+ accent-color: #000;
 }
 
-
 .modal__submit {
-    max-width: 124px;
-    max-height: 36px;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 32px 0 0 0;
-    padding: 8px 16px;
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.3);
-    border: none;
-    border-radius: 4px;
+ max-width: 124px;
+ max-height: 36px;
+ font-size: 16px;
+ line-height: 20px;
+ margin: 32px 0 0 0;
+ padding: 8px 16px;
+ color: #fff;
+ background-color: rgba(0, 0, 0, 0.3);
+ border: none;
+ border-radius: 4px;
 }
 
 .modal__submit:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+ background-color: rgba(0, 0, 0, 0.6);
 }

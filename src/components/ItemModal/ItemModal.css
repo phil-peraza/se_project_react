@@ -1,31 +1,31 @@
 .modal__content_type_image {
-    max-height: 610px;
-    height: 100%;
-    padding: 0;
+ max-height: 610px;
+ height: 100%;
+ padding: 0;
 }
 
 .modal__img {
-   padding: 0;
-   width: 100%;
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
+ padding: 0;
+ width: 100%;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
 }
 
 .modal__close_img_button {
-    background-image: url("../../assets/closebutton-img.svg");
+ background-image: url("../../assets/closebutton-img.svg");
 }
 
 .modal__footer {
-    margin: 20px;
-    padding: 0;
-    font-family: 'Cabinet Grotesk', Arial, Helvetica, sans-serif;
-    font-weight: normal;
+ margin: 20px;
+ padding: 0;
+ font-family: "Cabinet Grotesk", Arial, Helvetica, sans-serif;
+ font-weight: normal;
 }
 
 .modal__caption {
-    margin: 0px;
+ margin: 0px;
 }
 
 .modal__weather {
-    margin-top: 12px;
+ margin-top: 12px;
 }
